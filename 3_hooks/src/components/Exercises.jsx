@@ -67,7 +67,7 @@ const OnlineStatusIndicator = () => {
 // Componente que engloba todas as soluções de exercícios
 const Exercises = () => {
   // Mock de props para o UserInfo
-  const userInfo = { name: "Alice", jobTitle: "Desenvolvedora" };
+  const userInfo = { name: "Jorge", jobTitle: "Desenvolvedor" };
 
   // Estado para o FibCalculator
   const [num, setNum] = useState(10);

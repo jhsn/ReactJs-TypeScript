@@ -19,8 +19,8 @@ const ContadorCallback = () => {
   return (
     <div>
       <p>Contagem: {contador}</p>
-      {/* Botao é um componente memoizado que só atualiza se 'incrementar' mudar */}
-      <Botao onClick={incrementar}>Incrementar</Botao>
+      {/* Botao é um componente memorizado que só atualiza se 'incrementar' mudar */}
+      <Botao onClick={incrementar}>IncrementarCalback</Botao>
     </div>
   );
 };
