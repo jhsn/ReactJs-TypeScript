@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const PostForm = ({ post, onSuccess }) => {
@@ -7,8 +7,8 @@ const PostForm = ({ post, onSuccess }) => {
 
 
   useEffect(() => {
-    setTitle(post.title);
-    setBody(post.body);
+    setTitle(post?.title);
+    setBody(post?.body);
   }, [post]);
   
   const handleSubmit = async (event) => {
